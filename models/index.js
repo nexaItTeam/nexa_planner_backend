@@ -18,7 +18,7 @@ sequelize = new Sequelize({
   host: "localhost",
   dialect: "mysql",
   port: "3306",
-  password: "admin123",
+  password: "root",  //do not push this line of code
 });
 if (sequelize) {
   console.log("connection with db");
